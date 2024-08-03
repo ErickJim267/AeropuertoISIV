@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atributos", "Atributos\Atributos.csproj", "{C54E9476-E198-42AD-B7C0-2F17B22FA531}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{30E8C074-2C80-4511-833E-9341A2BD54D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIAeropuerto", "APIAeropuerto\APIAeropuerto.csproj", "{F99E0CEB-FE98-4261-BDF4-C1DC9E181677}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{C54E9476-E198-42AD-B7C0-2F17B22FA531}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C54E9476-E198-42AD-B7C0-2F17B22FA531}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C54E9476-E198-42AD-B7C0-2F17B22FA531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E8C074-2C80-4511-833E-9341A2BD54D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E8C074-2C80-4511-833E-9341A2BD54D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E8C074-2C80-4511-833E-9341A2BD54D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E8C074-2C80-4511-833E-9341A2BD54D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F99E0CEB-FE98-4261-BDF4-C1DC9E181677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99E0CEB-FE98-4261-BDF4-C1DC9E181677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99E0CEB-FE98-4261-BDF4-C1DC9E181677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99E0CEB-FE98-4261-BDF4-C1DC9E181677}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

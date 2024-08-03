@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D754B8B3-1003-4044-A778-3C95807CCCE9}</ProjectGuid>
+    <ProjectGuid>{30E8C074-2C80-4511-833E-9341A2BD54D0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataAccess</RootNamespace>
-    <AssemblyName>DataAccess</AssemblyName>
+    <RootNamespace>Negocio</RootNamespace>
+    <AssemblyName>Negocio</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,15 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Conexiones\ConnectionDB.cs" />
-    <Compile Include="Entidades\PaisBD.cs" />
-    <Compile Include="Entidades\PasajeroBD.cs" />
+    <Compile Include="NegPaises.cs" />
+    <Compile Include="NegPasajeros.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Atributos\Atributos.csproj">
       <Project>{C54E9476-E198-42AD-B7C0-2F17B22FA531}</Project>
       <Name>Atributos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{D754B8B3-1003-4044-A778-3C95807CCCE9}</Project>
+      <Name>DataAccess</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
